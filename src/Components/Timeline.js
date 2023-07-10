@@ -2,6 +2,7 @@ import React from 'react'
 import './animated.css'
 export const Timeline = () => {
     return (
+        <main className='bg-main'>
         <div className="main main-s">
             <ul className='ul-list'>
                 <li className='ul-list-1'>
@@ -47,5 +48,6 @@ export const Timeline = () => {
             </ul>
 
         </div>
+        </main>
     )
 }

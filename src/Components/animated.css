@@ -142,13 +142,15 @@ ul li .active .uil{
 .ap-pa{
     padding: 0 20px;
 }
+.bg-main{
+    display: block;
+}
 .main-s{
     margin-top: 0;
     padding-bottom: 70px;
-    display: block;
 }
 @media only screen and (max-width:980px){
-    .main-s{
+    .bg-main{
         display: none;
     }
 }
